@@ -1,0 +1,15 @@
+# media: only the two committed demo files are tracked
+*.mp4
+!videos/room_demo.mp4
+!demos/room_demo_run.mp4
+
+# generated outputs
+logs/
+output/
+
+# python / editor / OS cruft
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
